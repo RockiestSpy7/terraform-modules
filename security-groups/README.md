@@ -12,8 +12,8 @@ Terraform Module for creating security groups for the ALB, Bastion Host, App Ser
 | Name | Description |
 | --- | --- |
 | project_name | Name of your project |
-| environment |  |
-| vpc_id |   |
+| environment | Environment this will be deployed in (Ex: Dev,Prod) |
+| vpc_id | The ID of the VPC  |
 | ssh_id |   |
 
 <h3>Outputs</h3>

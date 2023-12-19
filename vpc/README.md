@@ -30,16 +30,16 @@ Terraform Module for creating a three tier architechure with 2 availability zone
 
 | Name | Description |
 | --- | --- |
-| region | export the region |
-| project_name | export the project name |
-| environment | export the environment |
-| vpc_id | export the vpc id |
-| internet_gateway | export the internet gateway |
-| public_subnet_az1_id | export the public subnet az1 id |
-| public_subnet_az2_id | export the public subnet az2 id |
-| private_app_subnet_az1_id | export the private app subnet az1 id |
-| private_app_subnet_az2_id | export the private app subnet az2 id |
-| private_data_subnet_az1_id | export the private data subnet az1 id |
-| private_data_subnet_az2_id | export the private data subnet az2 id |
-| availability_zone_1 | export the first availability zone |
-| availability_zone_2 | export the second availability zone |
+| region | exports the region |
+| project_name | exports the project name |
+| environment | exports the environment |
+| vpc_id | exports the vpc id |
+| internet_gateway | exports the internet gateway |
+| public_subnet_az1_id | exports the public subnet az1 id |
+| public_subnet_az2_id | exports the public subnet az2 id |
+| private_app_subnet_az1_id | exports the private app subnet az1 id |
+| private_app_subnet_az2_id | exports the private app subnet az2 id |
+| private_data_subnet_az1_id | exports the private data subnet az1 id |
+| private_data_subnet_az2_id | exports the private data subnet az2 id |
+| availability_zone_1 | exports the first availability zone |
+| availability_zone_2 | exports the second availability zone |

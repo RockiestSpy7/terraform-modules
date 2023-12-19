@@ -13,12 +13,12 @@ Terraform Module for creating a S3 bucket and uploading the Environment file int
 | Name | Description |
 | --- | --- |
 | project_name | Name of your project |
-| env_file_bucket_name |  |
-| env_file_name |   |
+| env_file_bucket_name | The name of the s3 bucket the env file goes into |
+| env_file_name | The env file name  |
 
 <h3>Outputs</h3>
 
 | Name | Description |
 | --- | --- |
-| env_file_bucket_name | export the s3 bucket name |
-| env_file_name | export the environment file name |
+| env_file_bucket_name | exports the s3 bucket name |
+| env_file_name | exports the environment file name |
