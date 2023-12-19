@@ -15,5 +15,5 @@ Terraform Module for creating record sets within Route-53
 | --- | --- |
 | domain_name | Name of your project |
 | record_name | Environment this will be deployed in (Ex: Dev,Prod) |
-| application_load_balancer_dns_name |   |
-| application_load_balancer_zone_id |   |
+| application_load_balancer_dns_name | The DNS Name of the ALB  |
+| application_load_balancer_zone_id | The Zone ID of the ALB  |
