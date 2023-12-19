@@ -16,11 +16,11 @@ Terraform Module for creating a RDS database from a DB Snapshot
 | --- | --- |
 | project_name | Name of your project |
 | environment | Environment this will be deployed in (Ex: Dev,Prod) |
-| private_data_subnet_az1_id |   |
-| private_data_subnet_az2_id |   |
-| database_snapshot_identifier |   |
-| database_instance_class |   |
-| availability_zone_1 |   |
+| private_data_subnet_az1_id | Private Data Subnet ID in Area Zone 1  |
+| private_data_subnet_az2_id | Private Data Subnet ID in Area Zone 2  |
+| database_snapshot_identifier | The name of your database snapshot  |
+| database_instance_class | The instance class of your database (Ex. db.t2.micro)  |
+| availability_zone_1 | Availability Zone 1  |
 | database_instance_identifier |   |
-| multi_az_deployment |   |
-| database_security_group_id |   |
+| multi_az_deployment | Deploys the RDS in muliple area zones  |
+| database_security_group_id | The ID for the database security group  |
