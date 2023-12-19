@@ -15,7 +15,7 @@ Terraform Module for creating an IAM Role Policy
 | --- | --- |
 | project_name | Name of your project |
 | environment | Environment this will be deployed in (Ex: Dev,Prod) |
-| env_file_bucket_name |   |
+| env_file_bucket_name | 	The name of the s3 bucket the env file goes into   |
 
 <h3>Outputs</h3>
 
