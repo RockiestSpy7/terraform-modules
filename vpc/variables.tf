@@ -1,4 +1,6 @@
+#########################################
 # Environment Variables
+#########################################
 
 variable "region" {
   description = "AWS region for the deployment."
@@ -16,7 +18,9 @@ variable "environment" {
   type        = string
 }
 
+#########################################
 # VPC Variables
+#########################################
 
 variable "vpc_cider" {
   description = "CIDR block for the VPC."

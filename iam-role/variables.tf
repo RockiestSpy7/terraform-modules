@@ -1,4 +1,6 @@
+#########################################
 # ecs task execution role variables
+#########################################
 
 variable "project_name" {
   description = "Name of the project, used for tagging and naming conventions."

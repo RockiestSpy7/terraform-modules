@@ -1,5 +1,6 @@
+#########################################
 # Route 53 Variables
-
+#########################################
 variable "domain_name" {
   description = "The domain name for which the DNS records will be managed."
   type        = string

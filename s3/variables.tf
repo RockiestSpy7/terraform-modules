@@ -1,5 +1,6 @@
+#########################################
 # S3 Variables
-
+#########################################
 variable "project_name" {
   description = "Name of the project. Used for tagging and naming conventions."
   type        = string
