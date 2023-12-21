@@ -1,5 +1,5 @@
 <h1>NAT-Gateway Module</h1>
-Terraform Module for creating the NAT-Gateways
+This Terraform module establishes NAT gateways in AWS, allocating elastic IPs and setting up NAT gateways in two public subnets. It also creates private route tables for these subnets, ensuring secure and efficient internet connectivity for private network resources.
 
 <h3>Resources</h3>
 

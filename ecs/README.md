@@ -1,5 +1,5 @@
 <h1>ECS (Elastic Container Service) Module</h1>
-Terraform Module for creating a ECS cluster
+This Terraform module configures an ECS environment in AWS, involving the creation of an ECS cluster, a CloudWatch log group, a task definition, and an ECS service. It sets up the ECS cluster with specific settings, logs ECS task outputs to CloudWatch, defines the task with container specifications, and finally, launches and manages the ECS service with Fargate, ensuring proper network and load balancing configurations. 
 
 <h3>Resources</h3>
 

@@ -1,5 +1,5 @@
 <h1>ALB (Application Load Balancer) Module</h1>
-Terraform Module for creating a Application Load Balancer
+This Terraform module creates an Application Load Balancer (ALB) in AWS, along with target groups and listeners for HTTP and HTTPS traffic. It configures the ALB with specified security groups and subnets, and sets up health checks and routing rules for efficient traffic management.
 
 <h3>Resources</h3>
 

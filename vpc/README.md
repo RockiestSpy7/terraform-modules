@@ -1,5 +1,5 @@
 <h1>VPC Module</h1>
-Terraform Module for creating a three tier architechure with 2 availability zones
+This Terraform module creates a VPC in AWS with internet gateway, public and private subnets across two availability zones, and associated routing. It's designed for scalable and secure network infrastructure, tailored for different project environments.
 
 <h3>Resources</h3>
 

@@ -1,5 +1,5 @@
 <h1>S3 Module</h1>
-Terraform Module for creating a S3 bucket and uploading the Environment file into the bucket
+This Terraform module creates an S3 bucket in AWS and uploads a specified environment file from the local system to the bucket.
 
 <h3>Resources</h3>
 

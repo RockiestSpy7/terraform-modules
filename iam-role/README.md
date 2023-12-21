@@ -1,5 +1,5 @@
 <h1>IAM (Identity Access Management) Role Module</h1>
-Terraform Module for creating an IAM Role Policy 
+This Terraform module creates an IAM role for ECS tasks in AWS, including a policy that allows ECS services to assume the role and a task execution policy. The task execution policy grants necessary permissions for ECR access and logging, along with specific S3 bucket access.
 
 <h3>Resources</h3>
 

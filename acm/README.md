@@ -1,5 +1,5 @@
 <h1>ACM (AWS Certificate Manager) Module</h1>
-Terraform Module for creating a SSL certificate for your domain name
+This Terraform module requests and validates public SSL/TLS certificates from Amazon Certificate Manager (ACM), using DNS validation. It includes creating a Route 53 DNS record set for domain validation and ensuring the certificate's validation.
 
 <h3>Resources</h3>
 

@@ -1,5 +1,5 @@
 <h1>Security-Groups Module</h1>
-Terraform Module for creating security groups for the ALB, Bastion Host, App Server, and Database
+This Terraform module establishes AWS security groups for an application load balancer, bastion host, app server, and database, each with tailored ingress and egress rules. It ensures secure network traffic management and is organized by specific project and environment tags for clarity.
 
 <h3>Resources</h3>
 

@@ -1,5 +1,5 @@
 <h1>RDS Module</h1>
-Terraform Module for creating a RDS database from a DB Snapshot
+This Terraform module sets up an AWS RDS environment, including creating a database subnet group and launching a database instance from a snapshot.
 
 <h3>Resources</h3>
 

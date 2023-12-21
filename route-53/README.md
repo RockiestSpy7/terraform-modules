@@ -1,5 +1,5 @@
 <h1>Route-53 Module</h1>
-Terraform Module for creating record sets within Route-53
+This Terraform module retrieves details of a specified AWS Route 53 hosted zone and creates a DNS record set.
 
 <h3>Resources</h3>
 
