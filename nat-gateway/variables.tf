@@ -19,7 +19,6 @@ variable "public_subnet_az1_id" {
 
 variable "internet_gateway" {
   description = "ID of the Internet Gateway associated with the VPC."
-  type        = string
 }
 
 variable "public_subnet_az2_id" {
